@@ -1,0 +1,23 @@
+{
+    "compilerOptions": {
+        "target": "es5",
+        "module": "commonjs",
+        "lib": ["es6", "dom", "es2019"],
+        "allowJs": true,
+        "outDir": "./dist",
+        "rootDir": "src",
+        "strict": true,
+        "noImplicitAny": false,
+        "esModuleInterop": true,
+        "resolveJsonModule": true,
+        "moduleResolution": "node",
+        "declaration": true
+    },
+    "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx"],
+    "exclude": ["node_modules", "./dist"],
+    "lint": [
+        {
+            "exclude": ["node_modules/**/*.ts"]
+        }
+    ]
+}
